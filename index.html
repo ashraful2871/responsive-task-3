@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 3</title>
+    <style>
+        button{
+            background-color: #0E6DF3;
+            color: white;
+            font-size: 16px;
+            height: 50px;
+            width: 110px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+        }
+        .section-container-1, .section-container-2{
+            margin-bottom: 20px;
+        }
+        .burger-section{
+            display: flex;
+            gap: 50px;
+            
+        }
+        .burger-container h1{
+            font-size: 48px;
+        }
+        .burger-container p{
+            font-size: 20px;
+        }
+        img{
+            width: 100%;
+        }
+
+        @media screen and (max-width:576px) {
+            .burger-section{
+                flex-direction: column;
+                padding: 30px;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section class="section-container-1">
+            <div class="burger-section">
+                <div>
+                    <img src="images/burger.png" alt="">
+                </div>
+                <div class="burger-container">
+                    <h1>Post Title Will be Here</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum repellat ratione excepturi quos,<br> sit assumenda impedit eum magni quibusdam! Quia, explicabo similique nobis error omnis molestiae placeat <br>vel eius nisi nulla dolore excepturi ab, cum accusamus eos dolorum deleniti eum labore, illo minima incidunt deserunt <br>quam. Enim, provident accusantium..</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-container-2">
+            <div class="burger-section">
+                <div>
+                    <img src="images/biriyani.png" alt="">
+                </div>
+                <div class="burger-container">
+                    <h1>Post Title Will be Here</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum repellat ratione excepturi quos,<br> sit assumenda impedit eum magni quibusdam! Quia, explicabo similique nobis error omnis molestiae placeat <br>vel eius nisi nulla dolore excepturi ab, cum accusamus eos dolorum deleniti eum labore, illo minima incidunt deserunt <br>quam. Enim, provident accusantium..</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
